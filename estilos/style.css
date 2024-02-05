@@ -1,6 +1,6 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 /*Font Family*/
@@ -18,6 +18,11 @@ p {
     color: #e6ccea;
     font-size: 2rem;
     font-style: italic;
+    margin-bottom: 0;
+}
+
+body {
+    background: radial-gradient(circle, #335D73, #426D7E, #333)
 }
 
 /*inicio de barra de navegacion*/
@@ -29,7 +34,8 @@ p {
     justify-content: end;
     height: 60px;
     align-items: center;
-    background-color: #e9ad5f;
+    background: rgb(156, 120, 74);
+    background: radial-gradient(circle, rgba(156, 120, 74, 1) 0%, rgba(218, 177, 125, 1) 100%);
 }
 
 .logo {
@@ -99,46 +105,224 @@ p {
 .photoContainer {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 
+
 img.margarita {
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
 }
 
 img.spicyMargarita {
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
 }
 
 img.pinaColada {
-    padding: 40px
+    padding: 40px 40px 0px 40px;
 }
 
 img.oldFashioned {
-    padding: 40px
+    padding: 40px 40px 0px 40px;
 }
 
 img.mojito {
-    padding: 40px
+    padding: 40px 40px 0px 40px;
 }
 
 img.cubaLibre {
-    padding: 40px
+    padding: 40px 40px 0px 40px;
 }
 
 img.daikiri {
-    padding: 40px
+    padding: 40px 40px 0px 40px;
 }
 
 img.ginTonic {
-    padding: 40px
+    padding: 40px 40px 0px 40px;
 }
+
+
+/* Comienzo de ContacUs.html*/
+.tituloContacto {
+    text-align: center;
+}
+
+.contactoContainer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+
+}
+
+.mapsContainer{
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contactoContainer .maps {
+    display: block;
+    align-self: center;
+    width: 100%;
+    padding: 0px 10% 0px 10%;    
+}
+
+.tituloMaps{
+    font-size: 2rem;  
+	text-align: center; 
+	padding-bottom: 20px; 
+	color: #ab4493;
+}
+
+.maps{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0e0e0e;
+    border-radius: 5px;
+    margin:20px 0px 20px 0px;
+}
+
+#maps {
+    width: fit-content;;
+}
+
+.titulohorarios{
+    color: #ab4493;
+}
+
+.horarios {
+    font-size: 1.5rem;
+    border-color: #ab4493;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    width: fit-content;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px;
+    background-color: #ab4493;
+}
+
+.contacoForm {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contacoForm .formulario input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+.contacoForm .formulario textarea{
+    background-color: #fbfbfb; 
+      width: 405px; 
+      height: 150px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #ab4493; 
+      margin-top: 10px;  
+      padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+
+  .contacoForm .formulario label {
+    display: block;
+    text-align: left;
+}
+
+.contacoForm .formulario button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ab4493; 
+	border-color: #ab4493; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+.contacoForm .formulario button p{
+	color: #fff; 
+}
+
+
+.contacoForm .formulario span{
+	color: #ab4493; 
+}
+
+.tituloFormulario{
+	font-size: 39px;  
+	text-align: left; 
+	padding-bottom: 20px; 
+	color: #ab4493;
+}
+
+
+.subTituloFormulario{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+
+.contacoForm .formulario p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
 
 /*inicio de footer*/
 
 footer {
     width: 100%;
-    background-color: #e9ad5f;
-    bottom: 0%;}
+    background: rgb(233, 173, 95);
+    background: linear-gradient(0deg, rgba(233, 173, 95, 1) 0%, rgba(230, 123, 92, 1) 100%);
+    margin-bottom: 0%;
+}
 
 footer .grupo1 {
     width: 100%;
@@ -199,7 +383,9 @@ footer .grupo1 .contenedorRedesSociales .redesSociales li {
     font-size: 1.4rem;
     font-style: italic;
     color: black;
-    background-color: #df9433;
+    background: rgb(223, 148, 51);
+    background: linear-gradient(180deg, rgba(223, 148, 51, 1) 0%, rgba(230, 123, 92, 1) 100%);
+    ;
     padding: 10px 0px;
     text-align: center;
 }
@@ -211,9 +397,10 @@ footer .grupo1 .contenedorRedesSociales .redesSociales li {
     font-size: 40px;
 }
 
-.copyrightContainer{
-    display: block;
-    bottom:0%
+.copyrightContainer {
+    width: 100%;
+    display: inline-block;
+    bottom: 0%
 }
 
 
@@ -224,7 +411,48 @@ footer .grupo1 .contenedorRedesSociales .redesSociales li {
 
 /*pagina de inicio*/
 
-#carouselEventos .carousel-inner img{
-    width: 500px;
-    height: 800px;
+.carouselContainer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30%;
+    justify-content: center;
+}
+
+.carouselContainer #carouselExample img {
+    width: auto;
+    height: auto;
+}
+
+/*Media Query*/
+@media only screen and (max-width: 1200px){
+.contactoContainer {
+    grid-template-columns: 1fr;
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        background: rgb(223, 125, 168);
+        background: radial-gradient(circle, rgba(223, 125, 168, 1) 0%, rgba(74, 141, 221, 1) 100%)
+        
+    }
+
+    .div1, .redesSociales, .copyrightContainer{
+        width: 100%;
+    }
+
+    footer .grupo1 figure img {
+        width: 50%;
+    }
+
+    .carouselContainer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 95%;
+    justify-content: center;
 }
