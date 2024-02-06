@@ -155,7 +155,7 @@ img.ginTonic {
 
 }
 
-.mapsContainer{
+.mapsContainer {
     width: 460px;
     height: auto;
     margin: 80px auto;
@@ -171,29 +171,30 @@ img.ginTonic {
     display: block;
     align-self: center;
     width: 100%;
-    padding: 0px 10% 0px 10%;    
+    padding: 0px 10% 0px 10%;
 }
 
-.tituloMaps{
-    font-size: 2rem;  
-	text-align: center; 
-	padding-bottom: 20px; 
-	color: #ab4493;
+.tituloMaps {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ab4493;
 }
 
-.maps{
+.maps {
     border-style: solid;
     border-width: 1px;
     border-color: #0e0e0e;
     border-radius: 5px;
-    margin:20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 #maps {
-    width: fit-content;;
+    width: fit-content;
+    ;
 }
 
-.titulohorarios{
+.titulohorarios {
     color: #ab4493;
 }
 
@@ -205,7 +206,7 @@ img.ginTonic {
     border-width: 1px;
     width: fit-content;
     padding: 0px 10px 0px 10px;
-    margin: 10px 0px;
+    margin: 5px 0px;
     background-color: #ab4493;
 }
 
@@ -221,97 +222,97 @@ img.ginTonic {
     padding-right: 30px;
 }
 
-.contacoForm .formulario input{
-	background-color: #fbfbfb; 
-	width: 408px; 
-	height: 40px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: #ab4493; 
-	margin-top: 10px;  
-	padding-left: 10px;
-  margin-bottom: 20px; 
+.contacoForm .formulario input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
 }
 
-.contacoForm .formulario textarea{
-    background-color: #fbfbfb; 
-      width: 405px; 
-      height: 150px; 
-      border-radius: 5px;  
-      border-style: solid; 
-      border-width: 1px; 
-      border-color: #ab4493; 
-      margin-top: 10px;  
-      padding-left: 10px;
-    margin-bottom: 20px; 
-    padding-top: 15px; 
-  }
+.contacoForm .formulario textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
 
-  .contacoForm .formulario label {
+.contacoForm .formulario label {
     display: block;
     text-align: left;
 }
 
-.contacoForm .formulario button{
-	height: 45px; 
-	padding-left: 5px;
-	padding-right: 5px; 	
-	margin-bottom: 20px; 
-	margin-top: 10px; 	
-	text-transform: uppercase;
-	background-color: #ab4493; 
-	border-color: #ab4493; 
-	border-style: solid; 
-	border-radius: 10px;	
-	width: 420px;   
-  cursor: pointer;
+.contacoForm .formulario button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #ab4493;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
 }
 
-.contacoForm .formulario button p{
-	color: #fff; 
-}
-
-
-.contacoForm .formulario span{
-	color: #ab4493; 
-}
-
-.tituloFormulario{
-	font-size: 39px;  
-	text-align: left; 
-	padding-bottom: 20px; 
-	color: #ab4493;
+.contacoForm .formulario button p {
+    color: #fff;
 }
 
 
-.subTituloFormulario{
-	font-size: 16px; 
-	padding-bottom: 30px;
-	color: #0e0e0e;   
+.contacoForm .formulario span {
+    color: #ab4493;
+}
+
+.tituloFormulario {
+    font-size: 39px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #ab4493;
 }
 
 
-.contacoForm .formulario p{
-	font-size: 14px; 
-	color: #0e0e0e; 
+.subTituloFormulario {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
 }
 
 
-.aviso{
-	font-size: 13px;  
-	color: #0e0e0e;  
-}
-
-.formulario input:focus{
-	outline:0;
-	border: 1px solid #97d848;
+.contacoForm .formulario p {
+    font-size: 14px;
+    color: #0e0e0e;
 }
 
 
-.formulario textarea:focus{
-	outline:0;
-	border: 1px solid #97d848;
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
 }
 
 
@@ -424,25 +425,26 @@ footer .grupo1 .contenedorRedesSociales .redesSociales li {
 }
 
 /*Media Query*/
-@media only screen and (max-width: 1200px){
-.contactoContainer {
-    grid-template-columns: 1fr;
-}
+@media only screen and (max-width: 1200px) {
+    .contactoContainer {
+        grid-template-columns: 1fr;
+    }
 }
 
 
 
 @media only screen and (max-width: 768px) {
-    
+
     body {
         display: flex;
         flex-wrap: wrap;
         background: rgb(223, 125, 168);
         background: radial-gradient(circle, rgba(223, 125, 168, 1) 0%, rgba(74, 141, 221, 1) 100%)
-        
     }
 
-    .div1, .redesSociales, .copyrightContainer{
+    .div1,
+    .redesSociales,
+    .copyrightContainer {
         width: 100%;
     }
 
@@ -451,8 +453,9 @@ footer .grupo1 .contenedorRedesSociales .redesSociales li {
     }
 
     .carouselContainer {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 95%;
-    justify-content: center;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 95%;
+        justify-content: center;
+    }
 }
