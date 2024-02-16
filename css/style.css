@@ -1,0 +1,49 @@
+header {
+  font-family: "roboto";
+  display: flex;
+  position: sticky;
+  top: 0%;
+  justify-content: end;
+  height: 60px;
+  align-items: center;
+  background: rgb(156, 120, 74);
+  background: radial-gradient(circle, rgb(156, 120, 74) 0%, rgb(218, 177, 125) 100%);
+}
+header .logo {
+  margin-right: auto;
+}
+header .logo .logo a .photoLogo {
+  height: 60px;
+  width: 180px;
+  transition: all 0.3s;
+}
+header .logo .logo a .photoLogo .logo a .photoLogo:hover {
+  transform: scale(1.1);
+}
+header nav .barraInicio {
+  list-style: none;
+  display: flex;
+}
+header nav .barraInicio .barraInicio li {
+  padding: 0px 20px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+header nav .barraInicio .barraInicio li .barraInicio li:hover {
+  transform: scale(1.1);
+}
+header nav .barraInicio .barraInicio li .barraInicio li:hover .barraInicio li a {
+  padding: 5px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  background-color: #e6ccea;
+  color: black;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+header nav .barraInicio .barraInicio li .barraInicio li:hover .barraInicio li a .barraInicio li a:hover {
+  color: #e9ad5f;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */

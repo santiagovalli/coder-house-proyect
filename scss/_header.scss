@@ -1,0 +1,56 @@
+header {
+    font-family: 'roboto';
+    display: flex;
+    position: sticky;
+    top: 0%;
+    justify-content: end;
+    height: 60px;
+    align-items: center;
+    background: rgb(156, 120, 74);
+    background: radial-gradient(circle, rgba(156, 120, 74, 1) 0%, rgba(218, 177, 125, 1) 100%);
+
+    .logo {
+        margin-right: auto;
+
+        .logo a .photoLogo {
+            height: 60px;
+            width: 180px;
+            transition: all 0.3s;
+
+            .logo a .photoLogo:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    nav .barraInicio {
+        list-style: none;
+        display: flex;
+
+        .barraInicio li {
+            padding: 0px 20px;
+            display: inline-block;
+            transition: all 0.3s;
+
+            .barraInicio li:hover {
+                transform: scale(1.1);
+
+                .barraInicio li a {
+                    padding: 5px;
+                    font-size: 1.1rem;
+                    text-decoration: none;
+                    background-color: #e6ccea;
+                    color: black;
+                    border-radius: 50px;
+                    transition: all 0.3s;
+
+                    .barraInicio li a:hover {
+                        color: #e9ad5f;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
