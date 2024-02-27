@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
+
     <!--FONTAWESOME-->
     <script src="https://kit.fontawesome.com/60cad2f523.js" crossorigin="anonymous"></script>
 
     <!---BOOSTRAP-->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <!--CSS-->
     <link rel="stylesheet" href="../estilos/style.css">
 
@@ -21,43 +22,145 @@
 
 <body>
     <header id="header">
-
-
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../img/gbartends.jpg" alt="logo GBartends" class="photoLogo">
-            </a>
-        </div>
-
-        <nav>
-
-            <ul class="barraInicio">
-
-
-                <li class="eventos">
-                    <a href="events.html">Eventos </a>
-                </li>
-
-                <li class="cocktails">
-                    <a href="cocktails.html">Cocktails</a>
-                </li>
-
-                <li class="nosotros">
-                    <a href="aboutUs.html">Nosotros</a>
-                </li>
-
-                <li class="contacto">
-                    <a href="contactUs.html">Contacto</a>
-                </li>
-
-            </ul>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/gbartends.jpg" alt="photoLogo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./events.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cocktails.html">Cocktails</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./aboutUs.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactUs.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <h1>
-        somos una empresa emprendedora
+        Por que gbartends?
     </h1>
-    <section></section>
+    <div class="pilarContainer">
+        <div class="pilarItem">
+            <h2>
+                Profesionalsimo
+            </h2>
+            <p>
+                En <span class="importantText">GBartends</span>, creemos firmemente que el profesionalismo es el pilar
+                fundamental que sustenta cada aspecto de nuestro negocio. Nos esforzamos por ofrecer un servicio
+                excepcionalmente profesional en cada interacción con nuestros clientes, y aquí está el porqué:
+            </p>
+        </div>
+
+        <div class="pilarItem">
+            <h2>
+                Experiencia y conocimiento
+            </h2>
+
+            <p>
+                Nuestro equipo de bartenders altamente capacitados cuenta con años de experiencia y un profundo
+                conocimiento de la mixología. Estamos constantemente actualizando nuestras habilidades y aprendiendo
+                nuevas técnicas para brindar las mejores experiencias a nuestros clientes.
+
+            </p>
+        </div>
+
+        <div class="pilarItem">
+            <h2>
+                Atención al Cliente
+            </h2>
+
+            <p>
+                Entendemos la importancia de la satisfacción del cliente y nos esforzamos por superar sus expectativas
+                en
+                cada evento. Desde la primera consulta hasta el último brindis, nos comprometemos a proporcionar un
+                servicio amable, profesional y personalizado.
+            </p>
+        </div>
+
+        <div class="pilarItem">
+            <h2>
+                Profesionalismo
+            </h2>
+
+            <p>
+                Desde nuestra presentación hasta nuestra actitud en el trabajo, mantenemos los más altos estándares de
+                profesionalismo en todo momento. Nos enorgullece nuestro aspecto impecable, nuestra puntualidad y
+                nuestra capacidad para manejar cualquier situación con gracia y profesionalismo.
+            </p>
+        </div>
+
+        <div class="pilarItem">
+            <h2>
+                Calidad
+            </h2>
+
+            <p>
+                Utilizamos solo los mejores ingredientes, herramientas y técnicas en nuestro trabajo para garantizar la
+                calidad de nuestras bebidas y servicios. Nos esforzamos por la perfección en cada detalle, desde la
+                selección de licores hasta la presentación de las bebidas
+            </p>
+        </div>
+
+    </div>
+
+    <div class="staffContainer">
+
+        <h3 class="tituloStaff">
+            nuestro staff
+        </h3>
+
+        <figure>
+            <img src="../img/ownerGabriela.webp" alt="PropietariaDeGBartends">
+            <figcaption>
+                Gabriela Rodriguez <Span class="owner">(propietaria)</Span>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../img/staffManolo.webp" alt="MiembroDelStaff">
+            <figcaption>
+                Manolo Coppola
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../img/staffOdysseas.webp" alt="MiembroDelStaff">
+            <figcaption>
+                Odysseas Sgouropoulos
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../img/staffPranisa.webp" alt="MiembroDelStaff">
+            <figcaption>
+                Pranisa Treechanasin
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../img/staffWyn.webp" alt="MiembroDelStaff">
+            <figcaption>
+                Wyn Vida
+            </figcaption>
+        </figure>
+
+    </div>
+
 
     <!--inicio de footer-->
 
@@ -115,8 +218,10 @@
         </div>
     </footer>
 
-<!--BOOSTRAP-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

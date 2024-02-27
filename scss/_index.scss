@@ -1,0 +1,11 @@
+.carouselContainer {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 40%;
+        justify-content: center;
+
+        img {
+            width: auto;
+            height: auto;
+        }
+    }

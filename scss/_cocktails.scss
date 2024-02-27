@@ -1,0 +1,22 @@
+.seccionCocteles {
+    #cocteles {
+        flex-flow: column wrap;
+        display: flex;
+
+        .tituloCocteles {
+            color: #e67b5c;
+            justify-content: center;
+            display: flex;
+        }
+
+        .photoContainer {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+
+            .productoCoctel{
+                padding: 40px 40px 0px 40px;
+            }
+        }
+    }
+}
