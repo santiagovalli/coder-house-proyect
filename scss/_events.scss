@@ -1,20 +1,33 @@
-.mainEvents{
+.mainEvents {
 
-   .eventosContainer{ display: flex;
-    flex-flow: column wrap;
-    width: 80%;
-   
-
-.tituloEventos{
-font-size:1.8rem;
-text-align:center;
-}
-
-.pilares{
-    display: grid;
-    grid-template-columns: repeat(2,1fr );
-    grid-template-rows:3,1fr;
-}
+   .tituloEventos {
+      font-size: 1.8rem;
+      text-align: center;
    }
+
+   .eventosContainer {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+      width: auto;
+      margin: 0px 20px;
+
+      .eventos {
+         padding: 40px;
+         @extend .tituloBase;
+         @include flexbox (column, center, center);
+
+         figcaption {
+            width: 70%;
+         }
+
+      }
+   }
+
+
+
+
+
 
 }

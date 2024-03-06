@@ -1,7 +1,36 @@
-.pilarContainer{
+.tituloNosotros {
+    @include typography (2.5rem, black, bold);
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.pilarContainer {
     display: grid;
-    grid-template-columns: repeat(2,1fr );
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     width: auto;
     margin: 0px 20px;
+
+    .pilarItem{
+        padding: 10px;
+    }
+}
+
+.staffContainer {
+
+    .tituloStaff {
+        width: 100%;
+        text-align: left;
+        margin: 40px 40px 0px 40px;
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    figure {
+        padding: 40px;
+        @extend .tituloBase;
+        @include flexbox (column, center, center);
+    }
 }

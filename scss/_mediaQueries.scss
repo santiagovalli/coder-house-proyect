@@ -2,6 +2,23 @@
     .contactoContainer {
         grid-template-columns: 1fr;
     }
+
+    .eventosContainer {
+        .eventos {
+            &:nth-child(2) {
+                img {
+                    width: 80%;
+                }
+            }
+
+
+            &:nth-child(7) {
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
 }
 
 
@@ -14,22 +31,115 @@
         flex-direction: column;
         background: rgb(223, 125, 168);
         background: $radial-bluePink;
+
+        .mainEvents {
+            .eventosContainer {
+                margin: 0;
+
+                img {
+                    width: 95%;
+                }
+
+                figcaption {
+                    width: 95%;
+                }
+            }
+        }
+
+        .pilarContainer {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+            width: auto;
+            margin: 0px 20px;
+        }
+
+        .staffContainer{
+            figure{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+
+        footer {
+            width: auto;
+
+
+            .div1,
+            .redesSociales,
+            .copyrightContainer {
+                width: 100%;
+            }
+
+            .grupo1 figure img {
+                width: 100%;
+            }
+        }
+
+        .carouselContainer {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: 95%;
+            justify-content: center;
+        }
+
+        .contactoContainer {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: 90%;
+            justify-content: center;
+
+
+            .mapsContainer {
+                width: 90%;
+
+                .maps {
+                    #maps {
+                        width: 90%;
+                    }
+                }
+            }
+
+            .contacoForm {
+                width: 90%;
+
+                .formulario {
+                    width: 90%;
+
+                    form {
+
+
+                        input {
+                            width: 90%;
+                        }
+
+                        textarea {
+                            width: 90%;
+                        }
+
+                        button {
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .seccionCocteles{
+            #cocteles{
+                .photoContainer{
+                    .productoCoctel{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
     }
 
-    .div1,
-    .redesSociales,
-    .copyrightContainer {
-        width: 100%;
-    }
-
-    footer .grupo1 figure img {
-        width: 50%;
-    }
-
-    .carouselContainer {
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: 95%;
-        justify-content: center;
-    }
 }

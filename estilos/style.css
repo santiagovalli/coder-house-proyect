@@ -7,6 +7,17 @@
   margin: 0;
 }
 
+.tituloBase, .staffContainer figure, .seccionCocteles #cocteles .photoContainer .productoCoctel h5, .mainEvents .eventosContainer .eventos {
+  color: black;
+  font-weight: bold;
+}
+
+.parrafoBase, .seccionCocteles #cocteles .photoContainer .productoCoctel p {
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+}
+
 header {
   z-index: 1;
   font-family: "roboto";
@@ -74,19 +85,27 @@ body {
   height: auto;
 }
 
-.mainEvents .eventosContainer {
-  display: flex;
-  flex-flow: column wrap;
-  width: 80%;
-}
-.mainEvents .eventosContainer .tituloEventos {
+.mainEvents .tituloEventos {
   font-size: 1.8rem;
   text-align: center;
 }
-.mainEvents .eventosContainer .pilares {
+.mainEvents .eventosContainer {
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 3, 1fr;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  width: auto;
+  margin: 0px 20px;
+}
+.mainEvents .eventosContainer .eventos {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainEvents .eventosContainer .eventos figcaption {
+  width: 70%;
 }
 
 .seccionCocteles #cocteles {
@@ -105,6 +124,26 @@ body {
 }
 .seccionCocteles #cocteles .photoContainer .productoCoctel {
   padding: 40px 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: min-content;
+}
+.seccionCocteles #cocteles .photoContainer .productoCoctel h5 {
+  word-wrap: break-word;
+  font-size: 2rem;
+}
+.seccionCocteles #cocteles .photoContainer .productoCoctel p {
+  font-size: 1.2rem;
+}
+
+.tituloNosotros {
+  font-size: 2.5rem;
+  color: black;
+  font-style: bold;
+  margin: 20px;
+  text-transform: uppercase;
 }
 
 .pilarContainer {
@@ -113,6 +152,27 @@ body {
   grid-gap: 20px;
   width: auto;
   margin: 0px 20px;
+}
+.pilarContainer .pilarItem {
+  padding: 10px;
+}
+
+.staffContainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.staffContainer .tituloStaff {
+  width: 100%;
+  text-align: left;
+  margin: 40px 40px 0px 40px;
+}
+.staffContainer figure {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tituloContacto {
@@ -335,6 +395,12 @@ footer .copyrightContainer .copyright {
   .contactoContainer {
     grid-template-columns: 1fr;
   }
+  .eventosContainer .eventos:nth-child(2) img {
+    width: 80%;
+  }
+  .eventosContainer .eventos:nth-child(7) img {
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 768px) {
   body {
@@ -344,19 +410,74 @@ footer .copyrightContainer .copyright {
     background: rgb(223, 125, 168);
     background: radial-gradient(circle, #df7da8 0%, #4a8ddd 100%);
   }
-  .div1,
-  .redesSociales,
-  .copyrightContainer {
+  body .mainEvents .eventosContainer {
+    margin: 0;
+  }
+  body .mainEvents .eventosContainer img {
+    width: 95%;
+  }
+  body .mainEvents .eventosContainer figcaption {
+    width: 95%;
+  }
+  body .pilarContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    width: auto;
+    margin: 0px 20px;
+  }
+  body .staffContainer figure img {
     width: 100%;
   }
-  footer .grupo1 figure img {
-    width: 50%;
+  body footer {
+    width: auto;
   }
-  .carouselContainer {
+  body footer .div1,
+  body footer .redesSociales,
+  body footer .copyrightContainer {
+    width: 100%;
+  }
+  body footer .grupo1 figure img {
+    width: 100%;
+  }
+  body .carouselContainer {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 95%;
     justify-content: center;
+  }
+  body .contactoContainer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 90%;
+    justify-content: center;
+  }
+  body .contactoContainer .mapsContainer {
+    width: 90%;
+  }
+  body .contactoContainer .mapsContainer .maps #maps {
+    width: 90%;
+  }
+  body .contactoContainer .contacoForm {
+    width: 90%;
+  }
+  body .contactoContainer .contacoForm .formulario {
+    width: 90%;
+  }
+  body .contactoContainer .contacoForm .formulario form input {
+    width: 90%;
+  }
+  body .contactoContainer .contacoForm .formulario form textarea {
+    width: 90%;
+  }
+  body .contactoContainer .contacoForm .formulario form button {
+    width: 90%;
+  }
+  body .seccionCocteles #cocteles .photoContainer .productoCoctel {
+    width: 100%;
+  }
+  body .seccionCocteles #cocteles .photoContainer .productoCoctel img {
+    width: 100%;
   }
 }
 
