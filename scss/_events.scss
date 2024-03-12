@@ -1,7 +1,8 @@
 .mainEvents {
 
    .tituloEventos {
-      font-size: 1.8rem;
+      font-size: 2.5rem;
+      @extend .tituloBase;
       text-align: center;
    }
 
@@ -19,6 +20,7 @@
          @include flexbox (column, center, center);
 
          figcaption {
+            margin-top: 10px;
             width: 70%;
          }
 

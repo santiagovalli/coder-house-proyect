@@ -7,7 +7,7 @@
   margin: 0;
 }
 
-.tituloBase, .staffContainer figure, .seccionCocteles #cocteles .photoContainer .productoCoctel h5, .mainEvents .eventosContainer .eventos {
+.tituloBase, .tituloContacto, .staffContainer figure, .tituloNosotros, .seccionCocteles #cocteles .photoContainer .productoCoctel h5, .seccionCocteles .tituloMainCocteles, .mainEvents .eventosContainer .eventos, .mainEvents .tituloEventos, .h1Index {
   color: black;
   font-weight: bold;
 }
@@ -18,6 +18,29 @@
   font-weight: normal;
 }
 
+@keyframes pilaresAnimation {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
 header {
   z-index: 1;
   font-family: "roboto";
@@ -74,7 +97,35 @@ body {
   background: radial-gradient(circle, #335D73, #426D7E, #333);
 }
 
+.h1Index {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.listaPilares {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  animation: pilaresAnimation 2s ease 0s 1 normal forwards;
+}
+.listaPilares .pilarescontainer {
+  border-radius: 10px;
+  padding: 3px 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(90deg, #ff0000 0%, #672b82 18%, #1d26aa 31%, #146e94 46%, #19b333 71%, #c9ba1d 87%, #b50d0d 96%);
+  display: inline;
+  text-decoration: none;
+}
+
+#parrafoInicio {
+  margin: 1rem;
+}
+
 .carouselContainer {
+  margin-bottom: 1rem;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 40%;
@@ -86,7 +137,7 @@ body {
 }
 
 .mainEvents .tituloEventos {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 .mainEvents .eventosContainer {
@@ -105,9 +156,14 @@ body {
   align-items: center;
 }
 .mainEvents .eventosContainer .eventos figcaption {
+  margin-top: 10px;
   width: 70%;
 }
 
+.seccionCocteles .tituloMainCocteles {
+  font-size: 2.5rem;
+  text-align: center;
+}
 .seccionCocteles #cocteles {
   flex-flow: column wrap;
   display: flex;
@@ -116,6 +172,7 @@ body {
   color: #e67b5c;
   justify-content: center;
   display: flex;
+  padding: 5px;
 }
 .seccionCocteles #cocteles .photoContainer {
   display: flex;
@@ -140,10 +197,7 @@ body {
 
 .tituloNosotros {
   font-size: 2.5rem;
-  color: black;
-  font-style: bold;
-  margin: 20px;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 .pilarContainer {
@@ -176,6 +230,7 @@ body {
 }
 
 .tituloContacto {
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -439,6 +494,20 @@ footer .copyrightContainer .copyright {
   }
   body footer .grupo1 figure img {
     width: 100%;
+  }
+  body .pilaresIndex {
+    display: flex;
+    justify-content: center;
+  }
+  body .pilaresIndex .listaPilares {
+    width: fit-content;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  body .pilaresIndex .listaPilares .pilarescontainer {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
   }
   body .carouselContainer {
     display: grid;

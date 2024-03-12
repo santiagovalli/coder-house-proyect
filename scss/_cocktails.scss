@@ -1,4 +1,10 @@
 .seccionCocteles {
+    .tituloMainCocteles {
+        font-size: 2.5rem;
+        @extend .tituloBase;
+        text-align: center;
+    }
+
     #cocteles {
         flex-flow: column wrap;
         display: flex;
@@ -7,6 +13,7 @@
             color: #e67b5c;
             justify-content: center;
             display: flex;
+            padding: 5px;
         }
 
         .photoContainer {
@@ -14,22 +21,23 @@
             flex-wrap: wrap;
             text-align: center;
 
-            .productoCoctel{
+            .productoCoctel {
                 padding: 40px 40px 0px 40px;
-                @include flexbox (column,flex-start,center);
+                @include flexbox (column, flex-start, center);
                 width: min-content;
-                h5{
+
+                h5 {
                     word-wrap: break-word;
                     @extend .tituloBase;
-                    font-size:2rem;
+                    font-size: 2rem;
                 }
 
-                p{
+                p {
                     @extend .parrafoBase;
                     font-size: 1.2rem;
                 }
 
-                
+
             }
         }
     }

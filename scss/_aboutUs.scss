@@ -1,7 +1,7 @@
 .tituloNosotros {
-    @include typography (2.5rem, black, bold);
-    margin: 20px;
-    text-transform: uppercase;
+    font-size: 2.5rem;
+    @extend .tituloBase;
+    text-align: center;
 }
 
 .pilarContainer {

@@ -1,4 +1,5 @@
-.tituloContacto {
+.tituloContacto {font-size: 2.5rem;
+    @extend .tituloBase;
     text-align: center;
 }
 

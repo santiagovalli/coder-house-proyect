@@ -54,9 +54,9 @@
             margin: 0px 20px;
         }
 
-        .staffContainer{
-            figure{
-                img{
+        .staffContainer {
+            figure {
+                img {
                     width: 100%;
                 }
             }
@@ -75,6 +75,24 @@
 
             .grupo1 figure img {
                 width: 100%;
+            }
+        }
+
+        .pilaresIndex {
+            display: flex;
+            justify-content: center;
+
+            .listaPilares {
+                width: fit-content;
+                flex-wrap: wrap;
+                flex-direction: column;
+                
+
+                .pilarescontainer{
+                    margin: 5px;
+                    display: flex;
+                    justify-content: center;
+                }
             }
         }
 
@@ -127,12 +145,13 @@
             }
         }
 
-        .seccionCocteles{
-            #cocteles{
-                .photoContainer{
-                    .productoCoctel{
+        .seccionCocteles {
+            #cocteles {
+                .photoContainer {
+                    .productoCoctel {
                         width: 100%;
-                        img{
+
+                        img {
                             width: 100%;
                         }
                     }

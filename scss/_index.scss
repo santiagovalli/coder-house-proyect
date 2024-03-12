@@ -1,4 +1,35 @@
-.carouselContainer {
+.h1Index{
+    font-size: 2.5rem;
+    @extend .tituloBase;
+    text-align: center;
+}
+
+.listaPilares {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    animation: pilaresAnimation 2s ease 0s 1 normal forwards;
+
+    .pilarescontainer {
+        border-radius: 10px;
+        padding: 3px 5px;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+        background: linear-gradient(90deg, #ff0000 0%, #672b82 18%, #1d26aa 31%, #146e94 46%, #19b333 71%, #c9ba1d 87%, #b50d0d 96%);
+        display: inline;
+        text-decoration: none;
+    }
+}
+
+
+#parrafoInicio{
+    margin: 1rem;
+}
+
+    .carouselContainer {
+        margin-bottom: 1rem;
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 40%;
