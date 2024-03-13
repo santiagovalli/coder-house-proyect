@@ -1,4 +1,5 @@
-.tituloContacto {font-size: 2.5rem;
+.tituloContacto {
+    font-size: 2.5rem;
     @extend .tituloBase;
     text-align: center;
 }
@@ -46,16 +47,21 @@
         }
 
         .horarios {
-            font-size: 1.5rem;
-            border-color: #ab4493;
-            border-radius: 5px;
-            border-style: solid;
-            border-width: 1px;
-            width: fit-content;
-            padding: 0px 10px 0px 10px;
-            margin: 5px 0px;
-            background-color: #ab4493;
+            width: 100%;
+
+            th,td {
+                text-align: center;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding: 0px 10px 0px 10px;
+                margin: 5px 0px;
+                background-color: #ab4493;
+                font-size: 1.5rem;
+
+            }
+
         }
+
 
     }
 

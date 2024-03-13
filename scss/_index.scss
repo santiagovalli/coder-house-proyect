@@ -16,8 +16,8 @@
         padding: 3px 5px;
         font-weight: bold;
         font-size: 1rem;
-        color: white;
-        background: linear-gradient(90deg, #ff0000 0%, #672b82 18%, #1d26aa 31%, #146e94 46%, #19b333 71%, #c9ba1d 87%, #b50d0d 96%);
+        color:black;
+        background: $linear-primaryFooter;
         display: inline;
         text-decoration: none;
     }

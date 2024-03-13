@@ -94,7 +94,7 @@ header .navbar div.container-fluid li a:hover {
 }
 
 body {
-  background: radial-gradient(circle, #335D73, #426D7E, #333);
+  background: radial-gradient(circle, #335D73, #426D7E, #535252);
 }
 
 .h1Index {
@@ -114,8 +114,8 @@ body {
   padding: 3px 5px;
   font-weight: bold;
   font-size: 1rem;
-  color: white;
-  background: linear-gradient(90deg, #ff0000 0%, #672b82 18%, #1d26aa 31%, #146e94 46%, #19b333 71%, #c9ba1d 87%, #b50d0d 96%);
+  color: black;
+  background: linear-gradient(0deg, #e9ad5f 0%, #e67b5c 100%);
   display: inline;
   text-decoration: none;
 }
@@ -156,6 +156,7 @@ body {
   align-items: center;
 }
 .mainEvents .eventosContainer .eventos figcaption {
+  text-align: center;
   margin-top: 10px;
   width: 70%;
 }
@@ -272,15 +273,16 @@ body {
   color: #ab4493;
 }
 .contactoContainer .mapsContainer .horarios {
-  font-size: 1.5rem;
-  border-color: #ab4493;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  width: fit-content;
+  width: 100%;
+}
+.contactoContainer .mapsContainer .horarios th, .contactoContainer .mapsContainer .horarios td {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
   padding: 0px 10px 0px 10px;
   margin: 5px 0px;
   background-color: #ab4493;
+  font-size: 1.5rem;
 }
 .contactoContainer .contacoForm {
   width: 460px;
